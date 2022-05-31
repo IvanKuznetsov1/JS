@@ -1,7 +1,7 @@
 var userText = document.querySelector('#inputText');
 var textShow = document.querySelector('#duplicateField');
 var Buttom = document.querySelector('#clearText');
-userText.addEventListener('keyup',(event)=>{
+userText.addEventListener('input',(event)=>{
     textShow.textContent=userText.value;
 });
 Buttom.addEventListener('click',(event)=>{
